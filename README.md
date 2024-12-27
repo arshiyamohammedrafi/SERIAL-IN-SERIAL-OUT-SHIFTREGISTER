@@ -33,7 +33,7 @@ Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and a
 
 **PROGRAM**
 
-module exp10(clk, sin, q);
+````module exp10(clk, sin, q);
 input clk;
 input sin;
 output [3:0] q;
@@ -46,6 +46,7 @@ q[2] <= q[1];
 q[3] <= q[2];
 end
 endmodule
+````
 
 
 **RTL LOGIC FOR SISO Shift Register**
@@ -53,8 +54,7 @@ endmodule
 
 
 **TIMING DIGRAMS FOR SISO Shift Register**
-![Screenshot 2024-12-20 222106](https://github.com/user-attachments/assets/7f8289b4-6ea1-4ce9-b1d0-aafb021934c0)
-
+![Screenshot 2024-12-27 181732](https://github.com/user-attachments/assets/865fe584-16e0-4dfe-9016-2a9654fec5ef)
 
 **RESULTS**
 Thus the SISO Shift Register using verilog is implelemented and validated their
